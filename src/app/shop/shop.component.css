@@ -1,0 +1,115 @@
+.contentContainer {
+  background-color: #ddddd5;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: center;
+  padding:40px 30px;
+}
+.card{
+  margin-right: 25px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.availableHead{
+  text-align:center;
+  background-color:#25E121;
+}
+
+h5.avail{
+  font-weight: 900;
+  margin-top:5px;
+}
+
+.notAvailableHead{
+  text-align:center;
+  background-color:#919183;
+}
+
+.bookCoverContainer{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:350px;
+  padding:5px;
+}
+
+.card-img-top{
+  max-width:100%;
+  max-height:100%;
+}
+
+.defaultImg{
+  max-width:50%;
+  max-height:50%;
+}
+
+.card-body{
+  background-color:#D9D9D9;
+  border-collapse: inherit;
+  height:150px;
+}
+
+.card-title{
+  font-weight:700;
+  width: 90%;
+  float:left;
+  flex-wrap:wrap;
+}
+
+.card-text{
+  color:grey;
+}
+
+.newBooks{
+  background-color:#f1fff1;
+  padding:30px 30px;
+  height:450px;
+}
+.slider-wrap{
+  position:relative;
+  overflow:hidden;
+}
+
+.slider-main{
+  width: 200%;
+  display:flex;
+  padding:0px 50px;
+}
+
+.newCard{
+  position:relative;
+  width:12rem;
+  background-color:white;
+  margin-right:10px;
+  margin-left:20px;
+  margin-bottom:30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.newBookCoverContainer{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:250px;
+  padding:5px;
+}
+
+.prev{
+  background:transparent;
+  border:none;
+  font-weight:800;
+  position:absolute;
+  left:0;
+  top:35%;
+}
+
+.next{
+  background:transparent;
+  border:none;
+  font-weight:800;
+  position:absolute;
+  right:0;
+  top:35%;
+}

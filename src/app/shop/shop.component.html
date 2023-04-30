@@ -1,0 +1,12 @@
+<section class = "contentContainer">
+  <div *ngFor="let product of products; index as i" class="card" style="width: 18rem;">
+    <div class="availableHead"><h5 class="avail">AVAILABLE</h5></div>
+    <div class="bookCoverContainer"><img class="card-img-top" src="{{product.image}}" alt="..."></div>
+    <div class="card-body">
+      <span style="display:flex;order:5;height:70px">
+        <div style="flex-grow:4; float:left"><h4 class="card-title">{{product.title}}</h4></div>
+      </span>
+      <span><p class="card-text">Price: ${{product.price}}</p></span>
+    </div>
+  </div>
+</section>
