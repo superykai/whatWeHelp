@@ -1,0 +1,22 @@
+
+.contentContainer {
+    margin: auto;
+    width: 70%;
+    border: 1px solid #73AD21;
+    padding: 10px;
+}
+
+
+.availableHead{
+    text-align:center;
+}
+
+.contentBox {
+    justify-content: center;
+}
+
+
+h5.avail{
+    font-weight: 1200;
+    margin-top:15px;
+}
