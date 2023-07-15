@@ -20,3 +20,17 @@ h5.avail{
     font-weight: 1200;
     margin-top:15px;
 }
+
+button {
+    border-radius: 8px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}

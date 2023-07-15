@@ -1,11 +1,16 @@
 <section class = "contentContainer">
-    <div>
-        <div class="availableHead"><h5 class="avail">Mission Statement</h5></div>
+    <div style="vertical-align: center">
+        <div class="availableHead"><h2 class="avail">Mission Statement</h2></div>
         <div class="contentBox">
             <p>
                 Our mission through We Help is to help those in need and give back to our community. Many people around the world are not as fortunate as we are to get shelter over their head, running water all the time, and food everyday. So through this non profit organization it is our duty to help those that need it the most and try our best to provide them with resources through the money we earn.
             </p>
             <p>Through the items we sell, not only can you get better grades with the books we sell, and add new accessories to your collection; you are also helping someone with providing them with resources! </p>
+        </div>
+        <div style="margin-top: 50px; text-align: center">
+            <img (click) ="router.navigate(['/Shop'],{queryParams: {category: 'books'}})" src="../../assets/books.webp" height="214" width="300"/>
+            <img (click) ="router.navigate(['/Shop'],{queryParams: {category: 'crochet'}})" src="../../assets/crochet.png" height="175" width="250"/>
+            <img (click) ="router.navigate(['/Shop'],{queryParams: {category: 'others'}})" src="../../assets/others.png" height="200" width="400"/>
         </div>
         <div style="margin-top: 50px; text-align: center">
             <button (click) ="router.navigate(['/Shop'],{queryParams: {category: 'books'}})">Books</button>
