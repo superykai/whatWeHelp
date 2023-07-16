@@ -10,9 +10,15 @@ export const environment = {
        appId: "1:617846858318:web:ecb5055570f8546f72191f",
        measurementId: "G-X6L7B3JWCK"
   },
-  productTable:{
-    name:'./product'
-  },
+    productTable:{
+        name:'./product'
+    },
+    contentTable:{
+        name:'/updateContent'
+    },
+    contactTable:{
+        name:'/contactUs'
+    },
 
 //   fileStore: {
 //     name: 'BindsUp-Files'

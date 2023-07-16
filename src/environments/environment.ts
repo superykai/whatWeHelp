@@ -17,6 +17,12 @@ export const environment = {
     productTable:{
       name:'/product'
     },
+    contentTable:{
+      name:'/updateContent'
+    },
+    contactTable:{
+      name:'/contactUs'
+    },
 
 //   fileStore: {
 //     name: 'BindsUp-Files'
